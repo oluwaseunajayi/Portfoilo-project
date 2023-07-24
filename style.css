@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Work+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    
+}
+
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 6px #090909 0.32;
+    position: fixed;
+    
+   
+}
+
+.header-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem  2.5rem 1rem  2.5rem ;
+    background-color: white;
+}
+
+.logo-container{
+    width: 2.5rem;
+    height: 2.5rem;
+    text-decoration: none;
+}
+
+.logo{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.navigation-menu{
+    width: fit-content;
+    height: auto;
+}
+
+.navigation-link{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+}
+
+.navigation-link li a{
+    text-decoration: none;
+    color: #0E0808;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-delay: 0.15s;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navigation-link li a:hover{
+    color: #1204ac;
+    transform: translateX(1px);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    padding: 6.5rem 2.5rem 2rem 2.5rem;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+    
+   
+    
+}
+
+.hero-text-container{
+    width: 50%;
+    height: 500px;
+    background-image: url("./images/background.svg");
+    background-position: cover;
+    padding: 2rem;
+    border-radius:1rem;
+}
+
+.hero-text-container{
+    width: fit-content;
+    height: 500px;
+
+}
+
+.header-text{
+    width: fit-content;
+    height: auto;
+    margin-bottom: 2.5rem;
+}
+
+.header-text h1{
+    width: fit-content;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: #0E0808;
+    
+}
+
+.sub-header-text{
+    width: fit-content;
+    height: auto;
+}
+
+.sub-header-text p{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    color: #1c1c1c;
+    margin-bottom: 3.5rem;
+}
+
+
+.cta-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.cta-btn{
+    width: fit-content;
+    height: auto;
+}
+
+.cta-btn{
+    width: fit-content;
+    height: auto;
+}
+
+.btn{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    background-color: #0E0808;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-delay: 0.15s;
+    transition-timing-function: ease-in-out;
+
+}
+.btn:hover{
+    transform: translateX(2px);
+    background-color: #1204ac;
+    font-weight: 700;
+    
+}
+
+.social-media-icon-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.icon-container{
+    width: 2.5rem;
+    height: 2.5rem ;
+}
+
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-delay: 0.15s;
+    transition-timing-function: ease-in-out;
+}
+
+.icon:hover{
+    transform: translateX(2px);
+}
+
+
+
+
+.hero-image-contanier{
+    width: 50%;
+    height: 500px;
+}
+
+.hero-image{
+    width: 100%;
+    height: 500px;
+    border-radius: 1rem;
+}
+
+.project-container{
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 11rem;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.project-group-container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    justify-content: center;
+    
+}
+
+.individual-project1{
+    width: 50%;
+    height: 400px;
+    background-image: url("./images/swiftpay.svg");
+    background-position: center;
+    background-size:cover;
+    padding: 1rem 0 0 1rem;
+    border-radius: 1rem;
+    transition: all;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    text-decoration: none;
+    box-shadow: 0 6px #aaaaaa;
+   
+   
+}
+
+.individual-project1:hover{
+    transform: scale(1.02);
+    
+}
+
+
+.individual-project1 h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.individual-project2{
+    width: 50%;
+    height: 400px;
+    background-image: url("./images/cinema.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 1rem 0 0 1rem;
+    border-radius: 1rem;
+    transition: all;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    text-decoration: none;
+    box-shadow: 0 6px #aaaaaa;
+}
+
+.individual-project2:hover{
+    transform: scale(1.02);
+    
+}
+
+.individual-project2 h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.individual-project3{
+    width: 50%;
+    height: 400px;
+    background-image: url("./images/sportify.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 1rem 0 0 1rem;
+    border-radius: 1rem;
+    transition: all;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    text-decoration: none;
+    box-shadow: 0 6px #aaaaaa;
+}
+
+.individual-project3:hover{
+    transform: scale(1.02);
+    
+}
+
+.individual-project3 h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.individual-project4{
+    width: 50%;
+    height: 400px;
+    background-image: url("./images/qurious.svg");
+    background-position: center;
+    background-size: contain;
+    padding: 1rem 0 0 1rem;
+    border-radius: 1rem;
+    transition: all;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    text-decoration: none;
+    box-shadow: 0 6px #aaaaaa;
+}
+
+.individual-project4:hover{
+    transform: scale(1.02);
+    
+}
+
+.individual-project4 h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.individual-project5{
+    width: 50%;
+    height: 400px;
+    background-image: url("./images/whatsapp\ thumbnail.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 1rem 0 0 1rem;
+    border-radius: 1rem;
+    transition: all;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    text-decoration: none;
+    box-shadow: 0 6px #aaaaaa;
+}
+
+.individual-project5:hover{
+    transform: scale(1.02);
+    
+}
+
+.individual-project5 h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.individual-project6{
+    width: 50%;
+    height: 400px;
+    background-image: url("./images/rayday.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 1rem 0 0 1rem;
+    border-radius: 1rem;
+    transition: all;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    text-decoration: none;
+    box-shadow: 0 6px #aaaaaa;
+}
+
+.individual-project6:hover{
+    transform: scale(1.02);
+    
+}
+
+.individual-project6 h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+
+.footer-section{
+    width: 100%;
+    height: 80vh;
+    margin-top: 16rem;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    background-image: url("./images/background.svg");
+    background-position: cover;
+}
+
+.footer-text-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    row-gap: 0.5rem;
+
+}
+
+.footer-header-text-container{
+    width: fit-content;
+    height: auto;
+}
+
+.footer-header-text-container h1{
+    width: fit-content;
+    height: auto;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+}
+
+.footer-sub-text-container{
+    width: fit-content;
+    height: auto;
+}
+
+.footer-sub-text-container h4{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    color: #1c1c1c;
+}
+
+.footer-cta-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.footer-cta-btn{
+    width: fit-content;
+    height: auto;
+}
+
+.footer-cta-btn{
+    width: fit-content;
+    height: auto;
+}
+
+.footer-btn{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    background-color: #0E0808;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-delay: 0.15s;
+    transition-timing-function: ease-in-out;
+
+}
+.footer-btn:hover{
+    transform: translateX(2px);
+    background-color: #1204ac;
+    font-weight: 700;
+    
+}
+
+.footer-social-media-icon-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.footer-icon-container{
+    width: 2.5rem;
+    height: 2.5rem ;
+}
+
+.footer-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-delay: 0.15s;
+    transition-timing-function: ease-in-out;
+}
+
+.footer-icon:hover{
+    transform: translateX(2px);
+}
+
+.footer-closing-remark{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
